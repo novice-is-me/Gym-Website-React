@@ -18,6 +18,7 @@
 
 .header-container h3{
     font-size: 5rem;
+    margin-bottom: .5em;
 }
 
 .header-container h1,
@@ -25,4 +26,75 @@
     font-family: var(--font-family); 
     font-weight: 600;
     color: white; 
+}
+
+.header-containerB{
+    display: none; 
+}
+
+.header-container-button{
+    padding: 2em;
+}
+
+.header-container-button button{
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 1em 1.5em;
+    background-color: #2e2e2e; 
+    color: white;
+    font-family: var(--font-family);
+}
+
+@media screen and (max-width:950px) {
+    .header-container{
+        padding: 5em 3em;
+    }
+
+    .header-container h1{
+        font-size: 6rem;
+    }
+    
+    .header-container h3{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:770px) {
+    .header-container{
+        padding: 3em 1em;
+    }
+
+    .header-container h1{
+        font-size: 5rem;
+    }
+    
+    .header-container h3{
+        font-size: 2.5rem;
+    }
+
+    .header-container-button{
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .header-container h1{
+        font-size: 3rem;
+    }
+    
+    .header-container h3{
+        font-size: 1.5rem;
+    }
+
+    .header-container-button{
+        padding-top: 2em;
+        padding-bottom: 0;
+    }
+
+    .header-container-button button{
+        padding: .5em 1em;
+        font-size: 12px;
+    }
 }

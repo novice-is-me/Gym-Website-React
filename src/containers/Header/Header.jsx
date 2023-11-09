@@ -5,9 +5,15 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header-container'>
-        <h1>LONGEVITY</h1> 
-        <h3>FITNESS</h3> 
-        <div>
+        <div className='header-containerA'>
+          <h1>LONGEVITY</h1> 
+          <h3>FITNESS</h3>
+        </div>
+        <div className='header-containerB'>
+          <h1>TIMELESS</h1>
+          <h3>POWER</h3>
+        </div>
+        <div className='header-container-button'>
           <button type='button'>Get Started</button>
         </div>
         
