@@ -1,0 +1,28 @@
+.header{
+    background-image: url('../../assets/hero.png'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+}
+
+.header-container{
+    padding: 7em 5em; 
+    width: 100%; 
+}
+
+.header-container h1{
+    font-size: 8rem;
+}
+
+.header-container h3{
+    font-size: 5rem;
+}
+
+.header-container h1,
+.header-container h3{
+    font-family: var(--font-family); 
+    font-weight: 600;
+    color: white; 
+}
