@@ -26,11 +26,9 @@
     font-family: var(--font-family); 
     font-weight: 600;
     color: white; 
+    
 }
 
-.header-containerB{
-    display: none; 
-}
 
 .header-container-button{
     padding: 2em;
