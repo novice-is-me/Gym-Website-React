@@ -1,0 +1,21 @@
+.services{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    grid-gap: 1em;
+    margin: 0 2em; 
+}
+
+.services-subtitle{
+    color: white;
+    font-family: var(--font-family);
+    margin-bottom: 3em;
+}
+
+
+@media screen and (max-width: 550px) {
+    .services{
+        margin:0;
+    }   
+}
