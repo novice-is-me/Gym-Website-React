@@ -46,7 +46,7 @@
     .service{
         padding: 2em;
     }   
-}
+} 
 
 @media screen and (max-width: 450px) {
     .service-container-service{

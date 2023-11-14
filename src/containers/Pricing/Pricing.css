@@ -1,0 +1,16 @@
+.pricing{
+    padding: 5em 5em;
+    display: flex;
+    justify-content: center;
+    background-image: url('../../assets/bg2.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    flex-direction: column;
+}
+
+.pricing-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    text-align: center;
+    grid-gap: 0 5em;
+}

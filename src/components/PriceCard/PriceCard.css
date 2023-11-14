@@ -1,0 +1,37 @@
+.pricecard-container{
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+    font-family: var(--font-family);
+    border-radius: 15px;
+    
+}
+
+.pricecard-container-upper{
+    padding: 2em 4em;
+}
+
+.pricecard-container-upper h2:first-child{
+    margin-bottom: 1em;
+}
+
+.pricecard-container-upper button{
+    margin-top: 1em;
+    padding: .5em 1.5em;
+    border-radius: 15px;
+    border: none;
+}
+
+.pricecard-container-bottom{
+    border: 1px solid white; 
+    padding: 2em 4em;
+    padding-bottom: 0;
+    background-color: white;
+    color: black;
+    border-bottom-left-radius: 15px; 
+    border-bottom-right-radius: 15px;
+}
+
+.pricecard-container-bottom p{
+    font-weight: 500;
+}
