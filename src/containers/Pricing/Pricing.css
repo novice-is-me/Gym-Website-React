@@ -14,3 +14,65 @@
     text-align: center;
     grid-gap: 0 5em;
 }
+
+.pricing-adv{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 8em;
+    font-family: var(--font-family);
+    color: white;
+}
+.pricing-adv-left{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.pricing-adv-left button{
+    padding: 1em 3em;
+    border-radius: 15px;
+    margin-top: 1em;
+}
+.pricing-adv-left h2{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.pricing-adv-right{
+    margin-left: 5em;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 1.25rem;
+}
+
+.pricing-adv-right p{
+    margin-bottom: 1.5em;
+}
+
+@media screen and (max-width:800px) {
+    .pricing{
+        padding: 5em 3em; 
+    }
+
+    .pricing-container{
+        grid-gap: 0 2em;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .pricing-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .pricing{
+        padding: 4em 2em;
+    }
+}
+

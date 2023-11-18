@@ -2,7 +2,7 @@ import React from 'react'
 import './Pricing.css';
 import { PriceCard} from '../../components'; 
 import WhyPower from '../../components/whyPower/WhyPower'; 
-import { FaCheck } from "react-icons/fa";  
+ 
 
 
 const Pricing = () => {
@@ -15,20 +15,20 @@ const Pricing = () => {
       </div>
       <div className='pricing-adv'>
         <div className='pricing-adv-left'>
-          <h2>Why POWERLAB?</h2> 
+          <h2>Why <br />POWERLAB?</h2> 
           <button type='button'>REGISTER</button>
         </div>
-        <div className='pricing-adv-right'>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
-          <p><WhyPower Reason="krukru"/></p>
+        <div className='pricing-adv-right'> 
+          <p><WhyPower Reason="Most effective training methods."/></p>
+          <p><WhyPower Reason="Individualised exercises for each client"/></p>
+          <p><WhyPower Reason="Workout duration 55 min"/></p>
+          <p><WhyPower Reason="Flexible schedule."/></p>
+          <p><WhyPower Reason="2-5 persons per Class only."/></p>
+          <p><WhyPower Reason="Professional Personal Trainer."/></p>
+          <p><WhyPower Reason="Friendly community."/></p>
+          <p><WhyPower Reason="Private Showers & towels."/></p>
+          <p><WhyPower Reason="Attention to interior details."/></p>
+          <p><WhyPower Reason="Always good coffee."/></p>
         </div>
       </div>
     </div>

@@ -1,3 +1,14 @@
 .whyPower p{
     color: white;
+   
+}
+
+.whyPower{
+    display: flex;
+    
+   
+}
+
+.whyPower span{
+    margin-right: .5em;
 }

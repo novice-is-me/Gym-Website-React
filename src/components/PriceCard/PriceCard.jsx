@@ -5,7 +5,7 @@ const PriceCard = ({Sessions,Pricing, weekNumber, perNum}) => {
   return ( 
     <div className='pricecard-container'>
       <div className='pricecard-container-upper'>
-        <h2>{Sessions}</h2>
+        <h2>{Sessions}</h2> 
         <h2>{Pricing}</h2> 
         <p>SEMI-PRIVATE TRAINING</p>
         <button type='button'>Select</button>

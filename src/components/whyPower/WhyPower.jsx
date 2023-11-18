@@ -1,10 +1,12 @@
 import React from 'react';
 import './WhyPower.css';
+import { FaCheck } from "react-icons/fa"; 
 
 const WhyPower = ({Reason}) => {
   return (
     <div className='whyPower'>
-      <p>{Reason}</p>    
+      <span><FaCheck/></span> 
+      <p>{Reason}</p>     
     </div>  
   )
 }
