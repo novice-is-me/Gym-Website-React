@@ -3,8 +3,6 @@ import './Pricing.css';
 import { PriceCard} from '../../components'; 
 import WhyPower from '../../components/whyPower/WhyPower'; 
  
-
-
 const Pricing = () => {
   return (
     <div className='pricing'>
@@ -18,7 +16,7 @@ const Pricing = () => {
           <h2>Why <br />POWERLAB?</h2> 
           <button type='button'>REGISTER</button>
         </div>
-        <div className='pricing-adv-right'> 
+        <div className='pricing-adv-right'>  
           <p><WhyPower Reason="Most effective training methods."/></p>
           <p><WhyPower Reason="Individualised exercises for each client"/></p>
           <p><WhyPower Reason="Workout duration 55 min"/></p>
