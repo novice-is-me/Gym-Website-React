@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css';   
 
-import {Footer, NavBar} from './components';
-import {About, Contacts, Gallery, Header, Pricing, Service} from './containers';
+import {NavBar} from './components';
+import {About, Contacts, Gallery, Header, Pricing, Service, Footers} from './containers';
 
 const App = () => {
   return (
@@ -15,7 +15,7 @@ const App = () => {
         <Service/> 
         <Pricing/>   
         <Contacts/>  
-        <Footer/>
+        <Footers/>
       </div>
     </div>
   )

@@ -10,11 +10,48 @@
 }
 
 .contacts-container-left h2{
-    font-size: 5em;
+    font-size: 5rem;
     font-weight: 600;
     line-height: 120px;
 }
 
-.contacts-container-right{
-    
+@media screen and (max-width:950px) {
+    .contacts-container-left h2{
+        font-size: 4rem;
+        line-height: normal;
+    }
+
+    .contacts-container-right label{
+        font-size: 1rem; 
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .contacts{
+        padding: 3em ;
+    }
+    .contacts-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts-container-left{
+        text-align: center;
+        margin-bottom: 2em;
+    }
+}
+
+@media screen and (max-width:450px){
+    .contacts{
+        padding: 2em;
+    }
+
+    .contacts-container-left h2{
+        font-size: 3rem;
+    }
+
+    .contacts-container-left h4{
+        font-size: 1.15rem;
+    }
 }

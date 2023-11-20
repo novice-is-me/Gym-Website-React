@@ -14,3 +14,10 @@
     border-radius: 5px;
     padding-left: 1em;
 }
+
+@media screen and (max-width:450px){
+    .form-container-content input{
+        width: 225px;
+    }
+
+}
