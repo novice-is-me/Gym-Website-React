@@ -1,0 +1,16 @@
+.form-container-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+.form-container-content label{
+    font-size: 1.15em;
+}
+
+.form-container-content input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 1em;
+}

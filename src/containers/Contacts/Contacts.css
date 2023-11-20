@@ -1,0 +1,20 @@
+.contacts{
+    padding: 3em 5em;
+}
+
+.contacts-container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-family);
+}
+
+.contacts-container-left h2{
+    font-size: 5em;
+    font-weight: 600;
+    line-height: 120px;
+}
+
+.contacts-container-right{
+    
+}
