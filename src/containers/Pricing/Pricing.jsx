@@ -5,7 +5,7 @@ import WhyPower from '../../components/whyPower/WhyPower';
  
 const Pricing = () => {
   return (
-    <div className='pricing'>
+    <div className='pricing' id='pricing'>
       <div className='pricing-container'> 
         <PriceCard Sessions="4 sessions" Pricing="$150" weekNumber="1 X Per Week" perNum="37"/>
         <PriceCard Sessions="8 sessions" Pricing="$250" weekNumber="2 X Per Week" perNum="31"/>

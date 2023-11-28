@@ -1,0 +1,53 @@
+.footers{
+    padding: 3em 5em;
+    padding-bottom: 1em !important;
+    border-top: 1px solid white;
+}
+
+.footer-container{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-family);
+}
+
+.footer-contacts-div,
+.message{
+    display: flex;
+}
+
+.message{
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-contacts-right{
+    margin-left: 1em;
+}
+
+.message textarea{
+    height: 150px;
+}
+
+.message button{
+    margin-top: 1em;
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 650px) {
+    .footers{
+        padding: 3em;
+    }
+    .message{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}

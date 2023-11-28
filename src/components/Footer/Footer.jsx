@@ -1,12 +1,12 @@
 import React from 'react';
 import './Footer.css';
 
-const Footer = ({content}) => {
-  return (
-    <div className='footer'>
+const Footer = ({content,link}) => {
+  return ( 
+    <div className='Footer'>
       <div className='footer-content'>
-          <p>{content}</p> 
-      </div>
+          <a href={link}>{content}</a> 
+      </div> 
     </div>
   )
 }
